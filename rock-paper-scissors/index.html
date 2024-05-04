@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            background-color: peachpuff ;
+            width: 300px;
+            padding: 20px 10px;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        .justforthesakeofalignment{
+            max-width: 200px;
+            margin: auto;
+        }
+        h3{
+            text-align: center;
+        }
+        button{
+            border: none;
+            border-radius: 5px;
+            background-color: rgb(41, 54, 236);
+            color: white;
+            padding: 4px 8px;
+        }
+        .output{
+            padding: 10px 0;
+        }
+        .score{
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3 class="heading">Select your choice:</h3>
+        <div class="justforthesakeofalignment">
+            <button class="rock">Rock</button>
+            <button class="paper">Paper</button>
+            <button class="scissors">Scissors</button>
+            <div class="output">
+        
+            </div>
+            <div class="score">
+                <div class="playerDiv">
+                    <p class="playerScore">Your Score:</p>            </div>
+                <div class="computerDiv">
+                    <p class="computerScore">Computer Score:</p>            </div>
+            </div>
+            </div>
+    </div>
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
